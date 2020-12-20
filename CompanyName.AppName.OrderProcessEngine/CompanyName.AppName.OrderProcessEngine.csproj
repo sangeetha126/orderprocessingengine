@@ -57,7 +57,12 @@
     <Compile Include="Product\Physical.cs" />
     <Compile Include="Product\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\BookOrderRuleHandler.cs" />
+    <Compile Include="Rules\MembershipOrderRuleHandler.cs" />
+    <Compile Include="Rules\NonPhysicalProdOrderRuleHandler.cs" />
     <Compile Include="Rules\OrderRuleHandler.cs" />
+    <Compile Include="Rules\PhysicalProdOrderRuleHandler.cs" />
+    <Compile Include="Rules\VideoOrderRuleHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
