@@ -60,6 +60,7 @@
     <Compile Include="Rules\BookOrderRuleHandler.cs" />
     <Compile Include="Rules\MembershipOrderRuleHandler.cs" />
     <Compile Include="Rules\NonPhysicalProdOrderRuleHandler.cs" />
+    <Compile Include="Rules\OrderRuleEngine.cs" />
     <Compile Include="Rules\OrderRuleHandler.cs" />
     <Compile Include="Rules\PhysicalProdOrderRuleHandler.cs" />
     <Compile Include="Rules\VideoOrderRuleHandler.cs" />
