@@ -41,6 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\ActivateMembership.cs" />
+    <Compile Include="Actions\AddFreeVideo.cs" />
+    <Compile Include="Actions\DuplicatePackingSlip.cs" />
+    <Compile Include="Actions\Email.cs" />
+    <Compile Include="Actions\GenerateCommissionPay.cs" />
+    <Compile Include="Actions\GeneratePackingSlip.cs" />
+    <Compile Include="Actions\IAction.cs" />
+    <Compile Include="Actions\UpgradeMembership.cs" />
+    <Compile Include="Orders\IOrder.cs" />
+    <Compile Include="Orders\Order.cs" />
     <Compile Include="Product\Book.cs" />
     <Compile Include="Product\IProduct.cs" />
     <Compile Include="Product\Membership.cs" />
